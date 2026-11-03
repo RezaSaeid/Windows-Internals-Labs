@@ -15,13 +15,11 @@ Hands-on, reproducible experiments for understanding Windows internals in isolat
 ## Repository layout
 ```text
 labs/
-  01-processes-and-threads/
-  02-virtual-memory/
-  03-handles-and-objects/
-  04-services-and-modules/
 notes/
 templates/
-  lab-report-template.md
+docs/
+  learning-roadmap.md
+  evidence-standard.md
 ```
 
 ## Lab environment
@@ -30,8 +28,10 @@ templates/
 - Sysinternals tools where appropriate
 - VM snapshots before experiments
 
-## Documentation standard
-Each completed lab records its objective, prerequisites, exact steps, observations, evidence, interpretation, limitations, and cleanup. Start with the [lab report template](templates/lab-report-template.md).
+## Start here
+- [Learning roadmap](docs/learning-roadmap.md)
+- [Evidence and reporting standard](docs/evidence-standard.md)
+- [Lab report template](templates/lab-report-template.md)
 
 ## Safety
 Use disposable, isolated VMs. Do not run destructive tests on production systems or systems without explicit authorization.
