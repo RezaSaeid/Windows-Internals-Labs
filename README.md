@@ -16,6 +16,7 @@ A structured research workspace for observing and explaining Windows process, th
 Processes and threads, handles, object management, virtual memory, PE loading, services, modules, debugging, and system observability.
 
 ## Start here
+- [Technical analysis framework](docs/technical-analysis-framework.md)
 
 - [Learning roadmap](docs/learning-roadmap.md)
 - [Evidence and reporting standard](docs/evidence-standard.md)
