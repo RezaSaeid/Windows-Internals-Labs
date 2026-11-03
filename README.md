@@ -41,3 +41,7 @@ This repository contains learning material, collection tooling, and report struc
 ## Safety and data handling
 
 Use disposable, isolated VMs. Do not run destructive tests on production systems or systems without explicit authorization. Sanitize machine identifiers, usernames, private paths, and sensitive process data before publication.
+
+## Architecture & Technical Case Study
+
+See [the architecture and technical case study](docs/case-study-and-architecture.md) for the domain-specific system model, analysis workflow, evidence requirements, and quality gates.
