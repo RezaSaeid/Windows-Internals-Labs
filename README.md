@@ -4,7 +4,7 @@ Hands-on, reproducible experiments for understanding Windows internals in isolat
 
 > **Status:** Learning and research portfolio. Exercises are marked complete only after they have been performed and documented with evidence.
 
-## Scope
+## Research areas
 - Processes, threads, handles, and object management
 - Virtual memory, address spaces, and working sets
 - PE loading, modules, and loader behavior
@@ -12,7 +12,7 @@ Hands-on, reproducible experiments for understanding Windows internals in isolat
 - User-mode debugging and introductory kernel concepts
 - Event tracing and system observability
 
-## Structure
+## Repository layout
 ```text
 labs/
   01-processes-and-threads/
@@ -25,13 +25,16 @@ templates/
 ```
 
 ## Lab environment
-- Windows 10/11 x64 VM on VMware or VirtualBox
+- Windows 10/11 x64 virtual machine (VMware or VirtualBox)
 - PowerShell and built-in Windows utilities
 - Sysinternals tools where appropriate
 - VM snapshots before experiments
 
 ## Documentation standard
-Each completed lab records objective, prerequisites, exact steps, observations, evidence, interpretation, limitations, and cleanup. See [lab report template](templates/lab-report-template.md).
+Each completed lab records its objective, prerequisites, exact steps, observations, evidence, interpretation, limitations, and cleanup. Start with the [lab report template](templates/lab-report-template.md).
 
 ## Safety
 Use disposable, isolated VMs. Do not run destructive tests on production systems or systems without explicit authorization.
+
+## Progress
+Planned exercises are not represented as completed research. Findings will include environment details and reproducible evidence.
