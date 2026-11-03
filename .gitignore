@@ -1,0 +1,16 @@
+# Local lab output and machine-specific data
+artifacts/
+*.etl
+*.evtx
+*.dmp
+*.hdmp
+*.mdmp
+*.pml
+*.trace
+*.log
+*.csv
+*.json
+!examples/*.json
+*.user
+*.suo
+.vs/
